@@ -1,0 +1,43 @@
+                        OCamlWinTop
+
+DESCRIPTION
+
+This is a simplistic user interface for the OCaml toplevel under MS
+Windows.  It provides a text window with basic editing facilities,
+allowing users to enter OCaml toplevel phrases and see the responses
+of the toplevel.  
+
+
+BUILDING FROM SOURCES
+
+Prerequisites:
+- MinGW or MSVC (Visual C++) development tools
+- Cygwin shell and file utilities
+- OCaml
+
+Building:
+        make
+        make install
+
+Important make variables, override on make command line if needed:
+
+  CONFIG: the OCaml configuration makefile
+    by default: `ocamlc -where`/Makefile.config
+    can also be set to:  /path/to/ocaml/sources/config/Makefile
+
+  DESTDIR: where to install the generated OCamlWin.exe executable
+
+
+COPYRIGHT AND LICENCE
+
+Copyright 2001-2012 Institut National de Recherche en Informatique et
+en Automatique.
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+A copy of the GNU General Public License version 2 is included in file LICENSE.
+
+
