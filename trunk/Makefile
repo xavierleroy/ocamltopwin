@@ -1,4 +1,5 @@
 CONFIG=`ocamlc -where`/Makefile.config
+-include Makefile.local
 
 include $(CONFIG)
 
