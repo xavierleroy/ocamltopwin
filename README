@@ -5,8 +5,15 @@ DESCRIPTION
 This is a simplistic user interface for the OCaml toplevel under MS
 Windows.  It provides a text window with basic editing facilities,
 allowing users to enter OCaml toplevel phrases and see the responses
-of the toplevel.  
+of the toplevel.
 
+STATUS
+
+This code used to be part of the OCaml core distribution from INRIA.
+It never worked well and had few users.  It was pulled out of
+the core distribution in 2012 and turned into this independent project.
+This code hasn't been maintained since then and should be considered
+as abandoned.
 
 BUILDING FROM SOURCES
 
